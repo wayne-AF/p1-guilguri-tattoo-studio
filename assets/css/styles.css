@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&family=Yuji+Syuku&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none
+}
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    color: #252525;
+}
+
+a {
+    color: #252525;
+    text-decoration: none;
+}
+
+/* navigation bar */
+
+#navbar {
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+#navbar-logo {
+    float: left;
+    font-family: 'Yuji Syuku', serif;
+    font-size: 250%;
+    line-height: 85px;
+}
+
+#nav-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+
+.active {
+    border-bottom: 1px solid #252525;
+}
