@@ -22,7 +22,6 @@ a {
 #navbar {
     margin-left: 150px;
     margin-right: 120px;
-    
 }
 
 #navbar-logo {
@@ -40,9 +39,16 @@ a {
     line-height: 100px;
 }
 
+.social-icon:hover {
+    background-color: #252525;
+    color: ivory;
+    border-radius: 2px;
+}
+
+
 #nav-menu a:hover {
     background-color: #252525;
-    color: cornsilk;
+    color: ivory;
     border-radius: 2px;
 }
 
@@ -52,17 +58,111 @@ a {
 
 /* hero image section */
 
-#hero-image {
+#hero-section {
     display: inline-block;
-    height: 900px;
-    width: 100%;
-    background: url('../images/index-hero-image.png') no-repeat right;
-    background-size: 60%;
-    background-position: 75% 50%;
-    
+    width: 60%;
+    text-align: center;
+    height: 400px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
+#hero-image {
+    /* display: inline-block; */
+    max-width: 100%;
+    height: auto;
+    background: url('../images/index-hero-image.png') no-repeat center center;
+    background-size: contain;
+    background-position: 50% 50%;
+}
 
+/* animation effect code retrieved from https://blog.hubspot.com/website/css-fade-in */
+#hero-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  #welcome {
+    text-align: center;
+    letter-spacing: 20px;
+    /* display: inline-block; */
+    font-family: 'Yuji Syuku', serif;
+    font-size: 50px;
+    
+    animation: fadeIn linear 2s;
+    animation-delay: 5s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+#footer {
+    text-align: center;
+    padding: 7%;
+}
+
+.social-icon {
+    font-size: 150%;
+    margin: 20px 50px 50px;
+    padding: 0.5%;
+}
+
+#footer p {
+    font-size: 10px;
+}
     
     
 
