@@ -9,6 +9,7 @@
 body {
     font-family: 'Roboto Flex', sans-serif;
     color: #252525;
+    background-color: #fffff0;
 }
 
 a {
@@ -19,8 +20,9 @@ a {
 /* navigation bar */
 
 #navbar {
-    margin-left: 100px;
-    margin-right: 70px;
+    margin-left: 150px;
+    margin-right: 120px;
+    
 }
 
 #navbar-logo {
@@ -38,6 +40,29 @@ a {
     line-height: 100px;
 }
 
+#nav-menu a:hover {
+    background-color: #252525;
+    color: cornsilk;
+    border-radius: 2px;
+}
+
 .active {
     border-bottom: 1px solid #252525;
 }
+
+/* hero image section */
+
+#hero-image {
+    display: inline-block;
+    height: 900px;
+    width: 100%;
+    background: url('../images/index-hero-image.png') no-repeat right;
+    background-size: 60%;
+    background-position: 75% 50%;
+    
+}
+
+
+    
+    
+
