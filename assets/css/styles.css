@@ -179,7 +179,7 @@ a {
     font-size: 10px;
 }
     
-/* About page */
+/* About the artist section */
     
 #artist-section {
   padding-top: 30px;
@@ -193,7 +193,11 @@ a {
   display: inline-block;
   width: 30%;
   margin-left: 20%;
-  border-radius: 50%;
+  
+}
+
+.round-corners {
+  border-radius: 5px;
 }
 
 #profile-text {
@@ -209,9 +213,15 @@ a {
 
 hr {
   border-top: 1px solid #252525;
-  width: 50%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 75px;
   margin-bottom: 75px;
+}
+
+/* About the studio section */
+
+#studio-text {
+  text-align: center;
 }
