@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&family=Yuji+Syuku&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&family=Yuji+Syuku&display=swap");
 
 * {
     margin: 0;
@@ -7,7 +7,8 @@
 }
 
 body {
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; 
     color: #252525;
     background-color: #fffff0;
     margin-left: auto;
@@ -47,7 +48,6 @@ a {
     color: ivory;
     border-radius: 2px;
 }
-
 
 #nav-menu a:hover {
     background-color: #252525;
@@ -179,5 +179,39 @@ a {
     font-size: 10px;
 }
     
+/* About page */
     
+#artist-section {
+  padding-top: 30px;
+  /* background-color: orange; */
+  display: inline-block;
+  height: 600px;
+}
 
+#profile-photo {
+  /* background-color: pink; */
+  display: inline-block;
+  width: 30%;
+  margin-left: 20%;
+  border-radius: 50%;
+}
+
+#profile-text {
+  /* background-color: lightblue; */
+  width: 30%;
+  float: right;
+  margin-left: 3%;
+  margin-right: 16%; 
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  padding-top: 100px;
+}
+
+hr {
+  border-top: 1px solid #252525;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
