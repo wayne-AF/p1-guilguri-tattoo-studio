@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none
+    border: none;
 }
 
 body {
@@ -185,10 +185,10 @@ a {
   padding-top: 30px;
   /* background-color: orange; */
   display: inline-block;
-  height: 600px;
+  /* height: 600px; */
 }
 
-#profile-photo {
+.artist-photo {
   /* background-color: pink; */
   display: inline-block;
   width: 30%;
@@ -197,7 +197,7 @@ a {
 }
 
 .round-corners {
-  border-radius: 5px;
+  border-radius: 5px!important;
 }
 
 #profile-text {
@@ -207,8 +207,9 @@ a {
   margin-left: 3%;
   margin-right: 16%; 
   letter-spacing: 1.5px;
-  line-height: 25px;
-  padding-top: 100px;
+  line-height: 1.5rem;
+  padding-top: 8em;
+  
 }
 
 hr {
@@ -216,12 +217,28 @@ hr {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
 /* About the studio section */
 
 #studio-text {
   text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5rem;
+  letter-spacing: 1.5px;
+  padding-bottom: 2em;
+}
+
+#studio-grid {
+  /* background-color: pink; */
+  text-align: center;
+}
+
+.studio-photo {
+  margin: 0.5em;
+  border-radius: 5px;
 }
