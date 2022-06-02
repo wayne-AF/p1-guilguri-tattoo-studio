@@ -21,13 +21,53 @@ a {
     text-decoration: none;
 }
 
+/* navigation bar 2nd time */
+
 header {
-  display: inline-block;
+  /* background-color: pink; */
+  /* text-align: center; */
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
 }
+
+.logo {
+  /* display: inline; */
+  font-family: 'Yuji Syuku', serif;
+  font-size: 260%;
+  line-height: 5rem;
+  /* text-align: center; */
+  letter-spacing: 5px;
+  padding-left: 0.5rem;
+}
+
+nav {
+  /* position: absolute; */
+  display: inline-block;
+  margin-right: 0.5rem;
+
+}
+
+nav ul {
+  list-style: none;
+  line-height: 6rem;
+  /* text-align: right; */
+  
+}
+
+li {
+  display: inline;
+  letter-spacing: 5px;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+
 
 /* navigation bar */
 
-#navbar {
+/* #navbar {
     margin-left: 150px;
     margin-right: 120px;
 }
@@ -45,7 +85,7 @@ header {
     margin-right: 30px;
     letter-spacing: 5px;
     line-height: 100px;
-}
+} */
 
 .social-icon:hover {
     background-color: #252525;
@@ -53,7 +93,7 @@ header {
     border-radius: 2px;
 }
 
-#nav-menu a:hover {
+nav a:hover {
     background-color: #252525;
     color: ivory;
     border-radius: 2px;
@@ -252,9 +292,11 @@ hr {
 #completed-tattoos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1rem;
-  max-width: 1800px;
-  display: inline;
+  gap: 2rem;
+  
+  
+  /* max-width: 1800px;
+  display: inline-block; */
   margin-left: auto;
   margin-right: auto;
 }
