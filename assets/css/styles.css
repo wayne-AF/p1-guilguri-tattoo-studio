@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+header {
+  display: inline-block;
+}
+
 /* navigation bar */
 
 #navbar {
@@ -197,7 +201,7 @@ a {
 }
 
 .round-corners {
-  border-radius: 5px!important;
+  border-radius: 5px;
 }
 
 #profile-text {
@@ -241,4 +245,22 @@ hr {
 .studio-photo {
   margin: 0.5em;
   border-radius: 5px;
+}
+
+/* Portfolio page */
+
+#completed-tattoos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  max-width: 1800px;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tattoo-photo {
+  object-fit: cover;
+  max-width: 25em;
+  
 }
