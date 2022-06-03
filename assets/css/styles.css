@@ -46,7 +46,7 @@ header {
 nav {
   /* position: absolute; */
   display: inline-block;
-  margin-right: 0.5rem;
+  /* margin-right: 0.5rem; */
 
 }
 
@@ -289,20 +289,37 @@ hr {
 
 /* Portfolio page */
 
-#completed-tattoos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 2rem;
-  
-  
-  /* max-width: 1800px;
-  display: inline-block; */
+.portfolio-section {
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2em;
 }
+
+#completed-tattoos, #available-designs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+  place-items: center;
+} 
 
 .tattoo-photo {
   object-fit: cover;
-  max-width: 25em;
-  
+  max-width: 20em;
+}
+
+#available-design-text {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5rem;
+  letter-spacing: 1.5px;
+  padding-bottom: 2em;
+}
+
+#available-designs p {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0.5rem;
 }
