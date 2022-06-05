@@ -87,16 +87,10 @@ li {
     line-height: 100px;
 } */
 
-.social-icon:hover {
+.hover-effect:hover {
     background-color: #252525;
     color: ivory;
-    border-radius: 2px;
-}
-
-nav a:hover {
-    background-color: #252525;
-    color: ivory;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .active {
@@ -200,12 +194,6 @@ nav a:hover {
     100% {opacity:1;}
   }
 
-  #welcome:hover {
-    background-color: #252525;
-    color: ivory;
-    border-radius: 2px;
-  }
-
   /* footer section */
 
   #footer {
@@ -258,7 +246,7 @@ nav a:hover {
 
 hr {
   border-top: 1px solid #252525;
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4em;
@@ -266,6 +254,12 @@ hr {
 }
 
 /* About the studio section */
+
+#artist-section, #studio-section {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #studio-text {
   text-align: center;
@@ -285,6 +279,7 @@ hr {
 .studio-photo {
   margin: 0.5em;
   border-radius: 5px;
+  max-width: 25rem;
 }
 
 /* Portfolio page */
@@ -313,9 +308,18 @@ hr {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1em;
   line-height: 1.5rem;
   letter-spacing: 1.5px;
   padding-bottom: 2em;
+}
+
+.discuss-button {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1em;
+  border: 1px solid #252525;
+  margin-bottom: 2rem;
 }
 
 #available-designs p {
