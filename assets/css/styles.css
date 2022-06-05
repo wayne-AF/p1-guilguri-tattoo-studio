@@ -10,7 +10,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 400; 
     color: #252525;
-    background-color: #fffff0;
+    background-color: cornsilk;
     margin-left: auto;
     margin-right: auto;
     max-width: 1800px;
@@ -91,6 +91,7 @@ li {
     background-color: #252525;
     color: ivory;
     border-radius: 5px;
+    padding: 0.25em;
 }
 
 .active {
@@ -317,7 +318,7 @@ hr {
 .discuss-button {
   font-family: inherit;
   font-size: inherit;
-  padding: 1em;
+  padding: 0.5em;
   border: 1px solid #252525;
   margin-bottom: 2rem;
 }
@@ -326,4 +327,37 @@ hr {
   text-align: center;
   font-size: 1rem;
   padding-top: 0.5rem;
+}
+
+/* Contact page */
+
+#contact-form {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-top: 5rem;
+  line-height: 2.5rem;
+  letter-spacing: 1.5px;
+  background-color: cornsilk;
+  padding: 2em;
+  
+}
+
+.text-area {
+  background-color: ivory;
+  border: solid 1px #252525;
+  margin: 0.25rem;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0.25em;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.25em;
+  background-color: ivory;
+  border: solid 1px #252525;
 }
