@@ -64,29 +64,6 @@ li {
   margin-right: 0.5rem;
 }
 
-
-/* navigation bar */
-
-/* #navbar {
-    margin-left: 150px;
-    margin-right: 120px;
-}
-
-#navbar-logo {
-    float: left;
-    font-family: 'Yuji Syuku', serif;
-    font-size: 250%;
-    line-height: 85px;
-}
-
-#nav-menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-    letter-spacing: 5px;
-    line-height: 100px;
-} */
-
 .hover-effect:hover {
     background-color: #252525;
     color: ivory;
@@ -331,17 +308,27 @@ hr {
 
 /* Contact page */
 
+#contact-page-background {
+  background-image: url("../images/swirl-transparent-1.png");
+  background-position: 0% -5%;
+  background-size: 175%;
+  background-repeat: no-repeat;
+}
+
 #contact-form {
   max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  border-top: 5rem;
+  margin-top: 3em;
   line-height: 2.5rem;
   letter-spacing: 1.5px;
-  background-color: cornsilk;
-  padding: 2em;
-  
+  background: rgba(255, 248, 220, 0.5);
+  padding: 1em;
+}
+
+#contact-form p, label {
+  font-weight: 500;
 }
 
 .text-area {
