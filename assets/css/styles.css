@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    font-weight: 400; 
+    font-weight: 500; 
     color: #252525;
     background-color: cornsilk;
     margin-left: auto;
@@ -189,7 +189,11 @@ li {
     font-size: 10px;
 }
     
-/* About the artist section */
+/* About page*/
+
+#about-page-background{
+  background-image: url("../images/succulent-transparent-1.png");
+}
     
 #artist-section {
   padding-top: 30px;
@@ -261,6 +265,13 @@ hr {
 }
 
 /* Portfolio page */
+
+#portfolio-page-background {
+  background-image: url("../images/eyedrip-transparent-1.png");
+  background-size: 100%;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+}
 
 .portfolio-section {
   max-width: 1400px;
