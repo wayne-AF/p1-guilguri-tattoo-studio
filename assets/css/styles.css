@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&family=Yuji+Syuku&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&family=Yuji+Syuku&display=swap");
 
 * {
     margin: 0;
@@ -10,7 +10,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 500; 
     color: #252525;
-    background-color: cornsilk;
+    background-color: linen;
     margin-left: auto;
     margin-right: auto;
     max-width: 1800px;
@@ -20,6 +20,12 @@ a {
     color: #252525;
     text-decoration: none;
 }
+
+/* p {
+  background: rgba(250, 240, 230, 0.8);
+  border-radius: 5px;
+  padding: 0.5em;
+} */
 
 /* navigation bar 2nd time */
 
@@ -191,23 +197,25 @@ li {
     
 /* About page*/
 
-#about-page-background{
-  background-image: url("../images/succulent-transparent-1.png");
-}
-    
-#artist-section {
-  padding-top: 30px;
-  /* background-color: orange; */
-  display: inline-block;
-  /* height: 600px; */
+#about-page-background {
+  background-image: url("../images/succulent-transparent-2.png");
+  background-position: 100% 5%;
+  background-repeat: no-repeat;
 }
 
-.artist-photo {
-  /* background-color: pink; */
+#artist-section {
+  display: flex;
+  /* justify-content: ; */
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#artist-photo {
   display: inline-block;
-  width: 30%;
-  margin-left: 20%;
-  
+  max-width: 100%;
+  height: auto;
+  margin-left: 1em;
 }
 
 .round-corners {
@@ -215,14 +223,12 @@ li {
 }
 
 #profile-text {
-  /* background-color: lightblue; */
-  width: 30%;
-  float: right;
-  margin-left: 3%;
-  margin-right: 16%; 
+  
+  display: inline-block;
+  
+  margin: auto 2em auto 3em;
   letter-spacing: 1.5px;
   line-height: 1.5rem;
-  padding-top: 8em;
   
 }
 
@@ -231,13 +237,13 @@ hr {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4em;
-  margin-bottom: 4em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 /* About the studio section */
 
-#artist-section, #studio-section {
+#studio-section {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
@@ -250,7 +256,8 @@ hr {
   margin-right: auto;
   line-height: 1.5rem;
   letter-spacing: 1.5px;
-  padding-bottom: 2em;
+  
+  
 }
 
 #studio-grid {
@@ -261,16 +268,52 @@ hr {
 .studio-photo {
   margin: 0.5em;
   border-radius: 5px;
-  max-width: 25rem;
+  max-width: 35rem;
 }
+
+#artist-section {
+  /* display: grid; */
+  /* justify-content: center; */
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#artist-photo {
+  display: inline-block;
+}
+
+.round-corners {
+  border-radius: 5px;
+}
+
+#profile-text {
+  /* background-color: lightblue; */
+  /* width: 30%; */
+  display: inline-block;
+  /* float: right; */
+  margin-left: 3%;
+  /* margin-right: 16%;  */
+  letter-spacing: 1.5px;
+  line-height: 1.5rem;
+  
+}
+
+hr {
+  border-top: 1px solid #252525;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  margin-bottom: 4em;
+} */
+
+
 
 /* Portfolio page */
 
 #portfolio-page-background {
-  background-image: url("../images/eyedrip-transparent-1.png");
-  background-size: 100%;
-  background-position: 0% 0%;
-  background-repeat: no-repeat;
+  background-image: url("../images/eyedrip-transparent-3.png");
 }
 
 .portfolio-section {
@@ -304,8 +347,7 @@ hr {
 }
 
 .discuss-button {
-  font-family: inherit;
-  font-size: inherit;
+  background-color: linen;
   padding: 0.5em;
   border: 1px solid #252525;
   margin-bottom: 2rem;
@@ -320,7 +362,8 @@ hr {
 /* Contact page */
 
 #contact-page-background {
-  background-image: url("../images/swirl-transparent-1.png");
+  background-image: url("../images/eyedrip-transparent-3.png");
+  /* background-image: url("../images/swirl-transparent-2.png"); */
   background-position: 0% -5%;
   background-size: 175%;
   background-repeat: no-repeat;
@@ -334,16 +377,16 @@ hr {
   margin-top: 3em;
   line-height: 2.5rem;
   letter-spacing: 1.5px;
-  background: rgba(255, 248, 220, 0.5);
+  /* background: rgba(250, 240, 230, 0.8); */
   padding: 1em;
 }
 
 #contact-form p, label {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .text-area {
-  background-color: ivory;
+  background-color: linen;
   border: solid 1px #252525;
   margin: 0.25rem;
   font-family: inherit;
@@ -356,6 +399,6 @@ button {
   font-family: inherit;
   font-size: 1rem;
   padding: 0.25em;
-  background-color: ivory;
+  background-color: linen;
   border: solid 1px #252525;
 }
