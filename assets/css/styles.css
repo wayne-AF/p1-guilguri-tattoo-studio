@@ -21,53 +21,81 @@ a {
     text-decoration: none;
 }
 
-/* p {
-  background: rgba(250, 240, 230, 0.8);
-  border-radius: 5px;
-  padding: 0.5em;
-} */
+hr {
+  border-top: 1px solid #252525;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
-/* navigation bar 2nd time */
+/* NAVIGATION BAR */
 
 header {
-  /* background-color: pink; */
-  /* text-align: center; */
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
+  position: relative; 
+  z-index: 50;
 }
 
+section {
+  position: relative;
+  z-index: 20;
+}
 .logo {
-  /* display: inline; */
   font-family: 'Yuji Syuku', serif;
   font-size: 260%;
   line-height: 5rem;
-  /* text-align: center; */
   letter-spacing: 5px;
   padding-left: 0.5rem;
 }
 
-nav {
-  /* position: absolute; */
+.nav {
   display: inline-block;
-  /* margin-right: 0.5rem; */
-
-}
-
-nav ul {
-  list-style: none;
+  text-align: right;
+  height: 70px;
   line-height: 6rem;
-  /* text-align: right; */
-  
 }
 
-li {
+.menu {
+  margin: 0 30px 0 0;
+  list-style-type: none;
+}
+
+.menu a {
+  clear: right;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 0.5em;
+  line-height: 6rem;
+}
+
+label {
+  margin: 0 0.5em 0 0;
+  font-size: 250%;
+/*   line-height: 70px; */
+  display: none;
+/*   width: 26px; */
+  float: right;
+}
+
+#toggle {
+  display: none;
+}
+nav {
+  display: inline-block;
+}
+
+.menu a {
   display: inline;
   letter-spacing: 5px;
   margin-left: 1rem;
   margin-right: 0.5rem;
+  line-height: 6rem;
 }
 
 .hover-effect:hover {
@@ -81,7 +109,11 @@ li {
     border-bottom: 1px solid #252525;
 }
 
-/* hero image section */
+.round-corners {
+  border-radius: 5px;
+}
+
+/* HERO IMAGE SECTION */
 
 #hero-section {
     display: inline-block;
@@ -142,7 +174,6 @@ li {
   #welcome {
     text-align: center;
     letter-spacing: 20px;
-    /* display: inline-block; */
     font-family: 'Yuji Syuku', serif;
     font-size: 3em;
     
@@ -178,7 +209,7 @@ li {
     100% {opacity:1;}
   }
 
-  /* footer section */
+  /* FOOTER SECTION */
 
   #footer {
     text-align: center;
@@ -195,12 +226,14 @@ li {
     font-size: 10px;
 }
     
-/* About page*/
+/* ABOUT PAGE*/
 
-#about-page-background {
+#about-page {
   background-image: url("../images/succulent-transparent-2.png");
   background-position: 100% 5%;
+  background-size: 150%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #artist-section {
@@ -209,6 +242,8 @@ li {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 3em;
 }
 
 #artist-photo {
@@ -218,30 +253,12 @@ li {
   margin-left: 1em;
 }
 
-.round-corners {
-  border-radius: 5px;
-}
-
 #profile-text {
-  
   display: inline-block;
-  
   margin: auto 2em auto 3em;
   letter-spacing: 1.5px;
   line-height: 1.5rem;
-  
 }
-
-hr {
-  border-top: 1px solid #252525;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3em;
-  margin-bottom: 3em;
-}
-
-/* About the studio section */
 
 #studio-section {
   max-width: 1400px;
@@ -254,14 +271,13 @@ hr {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 1em;
   line-height: 1.5rem;
   letter-spacing: 1.5px;
-  
-  
 }
 
 #studio-grid {
-  /* background-color: pink; */
   text-align: center;
 }
 
@@ -272,8 +288,6 @@ hr {
 }
 
 #artist-section {
-  /* display: grid; */
-  /* justify-content: center; */
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -281,6 +295,7 @@ hr {
 
 #artist-photo {
   display: inline-block;
+  margin-left: 1.5em;
 }
 
 .round-corners {
@@ -288,32 +303,21 @@ hr {
 }
 
 #profile-text {
-  /* background-color: lightblue; */
-  /* width: 30%; */
   display: inline-block;
-  /* float: right; */
   margin-left: 3%;
-  /* margin-right: 16%;  */
   letter-spacing: 1.5px;
   line-height: 1.5rem;
   
 }
 
-hr {
-  border-top: 1px solid #252525;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4em;
-  margin-bottom: 4em;
-} */
+/* PORTFOLIO PAGE */
 
-
-
-/* Portfolio page */
-
-#portfolio-page-background {
+#portfolio-page {
   background-image: url("../images/eyedrip-transparent-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 125%;
 }
 
 .portfolio-section {
@@ -359,11 +363,10 @@ hr {
   padding-top: 0.5rem;
 }
 
-/* Contact page */
+/* CONTACT PAGE */
 
-#contact-page-background {
-  background-image: url("../images/eyedrip-transparent-3.png");
-  /* background-image: url("../images/swirl-transparent-2.png"); */
+#contact-page {
+  background-image: url("../images/swirl-transparent-2.png");
   background-position: 0% -5%;
   background-size: 175%;
   background-repeat: no-repeat;
@@ -377,12 +380,11 @@ hr {
   margin-top: 3em;
   line-height: 2.5rem;
   letter-spacing: 1.5px;
-  /* background: rgba(250, 240, 230, 0.8); */
   padding: 1em;
 }
 
 #contact-form p, label {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .text-area {
@@ -401,4 +403,63 @@ button {
   padding: 0.25em;
   background-color: linen;
   border: solid 1px #252525;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1500px) {
+  
+  #completed-tattoos, #available-designs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    place-items: center;
+  } 
+
+  .portfolio-section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media screen and (max-width: 1150px) {
+  
+  .logo {
+    font-family: 'Yuji Syuku', serif;
+    letter-spacing: 3px;
+    padding-left: 0.5rem;
+  }
+  
+  .menu a {
+    display: inline;
+    letter-spacing: 3px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}  
+
+@media screen and (max-width: 1050px) {
+  label{
+    display: block;
+    cursor: pointer;
+    line-height: 5.5rem;
+  }
+  .menu {
+    text-align: right;
+    width: 100%;
+    display: none;
+  }
+  .menu a {
+    display: block;
+    margin-right: 1em;
+    line-height: 3.5rem;
+    /* background-color: rgba(250, 240, 230, 0.8); */
+    background-color: linen;
+    border-radius: 5px;
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
 }
