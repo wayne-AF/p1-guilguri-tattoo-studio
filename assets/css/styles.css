@@ -173,10 +173,12 @@ nav {
   }
 
   #welcome {
+    display: inline-block;
     text-align: center;
     letter-spacing: 20px;
     font-family: 'Yuji Syuku', serif;
     font-size: 3em;
+    padding: 0.5em;
     
     animation: fadeIn linear 4s;
     -webkit-animation: fadeIn linear 4s;
@@ -461,11 +463,21 @@ button {
     border-radius: 5px;
   }
 
-  .hover-effect:hover {
+  .menu .hover-effect:hover {
     color: #252525;
     background-color: linen;
     padding-left: 0.5em;
     padding-right: 0.5em;
+  }
+
+  .burger-menu-1 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .burger-menu-4 {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 
   .active {
