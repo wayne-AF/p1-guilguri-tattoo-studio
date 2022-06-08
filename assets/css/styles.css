@@ -26,8 +26,8 @@ hr {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 /* NAVIGATION BAR */
@@ -36,6 +36,7 @@ header {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2em;
   display: flex;
   justify-content: space-between;
   position: relative; 
@@ -62,7 +63,7 @@ section {
 }
 
 .menu {
-  margin: 0 30px 0 0;
+  margin: 0;
   list-style-type: none;
 }
 
@@ -284,7 +285,7 @@ nav {
 .studio-photo {
   margin: 0.5em;
   border-radius: 5px;
-  max-width: 35rem;
+  max-width: 32rem;
 }
 
 #artist-section {
@@ -321,22 +322,19 @@ nav {
 }
 
 .portfolio-section {
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 2em;
 }
 
-#completed-tattoos, #available-designs {
+.tattoo-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1.5rem;
-  place-items: center;
-} 
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
 
-.tattoo-photo {
-  object-fit: cover;
-  max-width: 20em;
+.tattoo-image {
+  width: 100%;
 }
 
 #available-design-text {
@@ -357,7 +355,7 @@ nav {
   margin-bottom: 2rem;
 }
 
-#available-designs p {
+.tattoo-card p {
   text-align: center;
   font-size: 1rem;
   padding-top: 0.5rem;
@@ -409,19 +407,14 @@ button {
 
 @media screen and (max-width: 1500px) {
   
-  #completed-tattoos, #available-designs {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.5rem;
-    place-items: center;
-  } 
+  
+}
 
-  .portfolio-section {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (max-width: 1200px) {
+  .studio-photo {
+    margin: 0.5em;
+    max-width: 25rem;
   }
-
 }
 
 @media screen and (max-width: 1150px) {
@@ -441,6 +434,7 @@ button {
 }  
 
 @media screen and (max-width: 1050px) {
+  /* responsive hamburger menu code retrieved from https://www.youtube.com/watch?v=xMTs8tAapnQ */
   label{
     display: block;
     cursor: pointer;
@@ -456,10 +450,55 @@ button {
     margin-right: 1em;
     line-height: 3.5rem;
     /* background-color: rgba(250, 240, 230, 0.8); */
-    background-color: linen;
-    border-radius: 5px;
+    color: linen;
+    background-color: #252525;
+    /* border-radius: 5px; */
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
   #toggle:checked + .menu {
     display: block;
+    border-radius: 5px;
+  }
+
+  .hover-effect:hover {
+    color: #252525;
+    background-color: linen;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .active {
+    border-bottom: 1px solid linen;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #artist-section {
+    /* display: flex; */
+    /* justify-content: ; */
+    /* max-width: 1200px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+  
+  #artist-photo {
+    display: inline;
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #profile-text {
+    display: inline;
+    width: 100%;
+    float: left;
+    margin: auto;
+    letter-spacing: 1.5px;
+    line-height: 1.5rem;
   }
 }
