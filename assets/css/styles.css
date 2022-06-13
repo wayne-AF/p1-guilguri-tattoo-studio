@@ -53,6 +53,7 @@ section {
   line-height: 5rem;
   letter-spacing: 5px;
   padding-left: 0.5rem;
+  max-width: 60%;
 }
 
 .nav {
@@ -118,20 +119,20 @@ nav {
 
 #hero-section {
     display: inline-block;
-    width: 60%;
+    max-width: 70%;
     text-align: center;
-    height: 400px;
-    margin-left: 20%;
-    margin-right: 20%;
+    /* height: 400px; */
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #hero-image {
     /* display: inline-block; */
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
-    background: url('../images/index-hero-image.png') no-repeat center center;
+    /* background: url('../images/index-hero-image.png') no-repeat center center;
     background-size: contain;
-    background-position: 50% 50%;
+    background-position: 50% 50%; */
 }
 
 /* animation effect code retrieved from https://blog.hubspot.com/website/css-fade-in */
@@ -173,11 +174,11 @@ nav {
   }
 
   #welcome {
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
     letter-spacing: 20px;
     font-family: 'Yuji Syuku', serif;
-    font-size: 3em;
+    font-size: clamp(1.5rem, 4vw, 4rem);
     padding: 0.5em;
     
     animation: fadeIn linear 4s;
@@ -221,8 +222,8 @@ nav {
 
 .social-icon {
     font-size: 150%;
-    margin: 20px 50px 50px;
-    padding: 0.5%;
+    margin: 4%;
+    padding: 2%;
 }
 
 #footer p {
@@ -280,15 +281,15 @@ nav {
   letter-spacing: 1.5px;
 }
 
-#studio-grid {
+/* #studio-grid {
   text-align: center;
-}
+} */
 
-.studio-photo {
+/* .studio-photo {
   margin: 0.5em;
   border-radius: 5px;
   max-width: 32rem;
-}
+} */
 
 #artist-section {
   max-width: 1000px;
@@ -334,6 +335,8 @@ nav {
   gap: 1em;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
+
+
 
 .tattoo-image {
   width: 100%;
@@ -395,6 +398,8 @@ nav {
   font-size: 1rem;
   line-height: 1.5rem;
   padding: 0.25em;
+  /* box-sizing: border-box; */
+  max-width: 80%;
 }
 
 button {
@@ -412,13 +417,26 @@ button {
   
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .studio-photo {
     margin: 0.5em;
     max-width: 25rem;
   }
 }
 
+@media screen and (max-width: 900px) {
+  .studio-photo {
+    max-width: 20rem;
+  }
+  
+}
+
+@media screen and (max-width: 695px) {
+  .studio-photo {
+    max-width: 30rem;
+  }
+  
+} */
 @media screen and (max-width: 1150px) {
   
   .logo {
@@ -513,4 +531,28 @@ button {
     letter-spacing: 1.5px;
     line-height: 1.5rem;
   }
+}
+
+@media screen and (max-width: 920px) {
+  .logo {
+  font-family: 'Yuji Syuku', serif;
+  font-size: 200%;
+  /* line-height: 3rem; */
+  /* letter-spacing: 5px; */
+  padding-left: 0.5rem;
+  /* max-width: 50%; */
+  }
+  
+}
+
+@media screen and (max-width: 722px) {
+  .logo {
+  font-family: 'Yuji Syuku', serif;
+  font-size: 200%;
+  line-height: 3rem;
+  /* letter-spacing: 5px; */
+  padding-left: 0.5rem;
+  /* max-width: 50%; */
+  }
+  
 }
