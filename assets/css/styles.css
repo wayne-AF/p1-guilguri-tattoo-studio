@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+.round-corners {
+  border-radius: 5px;
+}
+
 hr {
   border-top: 1px solid #252525;
   width: 60%;
@@ -109,10 +113,6 @@ nav {
 
 .active {
     border-bottom: 1px solid #252525;
-}
-
-.round-corners {
-  border-radius: 5px;
 }
 
 /* HERO IMAGE SECTION */
@@ -240,29 +240,51 @@ nav {
   background-attachment: fixed;
 }
 
-#artist-section {
+#artist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  max-width: 1000px;
+  margin: auto;
+}
+
+#profile-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  letter-spacing: 1.5px;
+  line-height: 1.5rem;
+  padding: 0.75em;
+}
+
+.profile-photo {
+  width: 100%;
+}
+
+#artist-photo {
+  margin: auto 1em auto;
+}
+/* #artist-section {
   display: flex;
   /* justify-content: ; */
-  max-width: 1200px;
+  /* max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1em;
   margin-bottom: 3em;
-}
+} */
 
-#artist-photo {
+/* #artist-photo {
   display: inline-block;
   max-width: 100%;
   height: auto;
   margin-left: 1em;
-}
+} */
 
-#profile-text {
+/* #profile-text {
   display: inline-block;
   margin: auto 2em auto 3em;
   letter-spacing: 1.5px;
   line-height: 1.5rem;
-}
+} */
 
 #studio-section {
   max-width: 1400px;
@@ -281,38 +303,36 @@ nav {
   letter-spacing: 1.5px;
 }
 
-/* #studio-grid {
+#studio-grid {
   text-align: center;
-} */
+}
 
-/* .studio-photo {
+.studio-photo {
   margin: 0.5em;
   border-radius: 5px;
   max-width: 32rem;
-} */
+}
 
-#artist-section {
+/* #artist-section {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-#artist-photo {
+/* #artist-photo {
   display: inline-block;
   margin-left: 1.5em;
-}
+} */
 
-.round-corners {
-  border-radius: 5px;
-}
 
-#profile-text {
+
+/* #profile-text {
   display: inline-block;
   margin-left: 3%;
   letter-spacing: 1.5px;
   line-height: 1.5rem;
   
-}
+} */
 
 /* PORTFOLIO PAGE */
 
@@ -336,8 +356,6 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
-
-
 .tattoo-image {
   width: 100%;
 }
@@ -357,7 +375,8 @@ nav {
   background-color: linen;
   padding: 0.5em;
   border: 1px solid #252525;
-  margin-bottom: 2rem;
+  display: inline-block;
+  
 }
 
 .tattoo-card p {
@@ -505,16 +524,16 @@ button {
 
 @media screen and (max-width: 1000px) {
   #artist-section {
-    /* display: flex; */
+    
     /* justify-content: ; */
-    /* max-width: 1200px; */
-    margin-left: auto;
+    /* max-width: 1200px;
+    /* margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
     margin-bottom: 3em;
-  }
+  } */
   
-  #artist-photo {
+  /* #artist-photo {
     display: inline;
     width: 100%;
     float: left;
@@ -530,7 +549,7 @@ button {
     margin: auto;
     letter-spacing: 1.5px;
     line-height: 1.5rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 920px) {
