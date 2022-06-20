@@ -60,7 +60,7 @@ section {
   max-width: 60%;
 }
 
-.nav {
+nav {
   display: inline-block;
   text-align: right;
   height: 70px;
@@ -78,6 +78,7 @@ section {
   color: inherit;
   margin-right: 0.5em;
   line-height: 6rem;
+  padding: 0.25em;
 }
 
 label {
@@ -108,7 +109,7 @@ nav {
     background-color: #252525;
     color: ivory;
     border-radius: 5px;
-    padding: 0.25em;
+    /* padding: 0.25em; */
 }
 
 .active {
@@ -294,7 +295,7 @@ nav {
 
 #studio-text {
   text-align: center;
-  width: 60%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
@@ -310,7 +311,8 @@ nav {
 .studio-photo {
   margin: 0.5em;
   border-radius: 5px;
-  max-width: 32rem;
+  width: 32rem;
+  max-width: 100%;
 }
 
 /* #artist-section {
@@ -522,36 +524,6 @@ button {
   }
 }
 
-@media screen and (max-width: 1000px) {
-  #artist-section {
-    
-    /* justify-content: ; */
-    /* max-width: 1200px;
-    /* margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 3em;
-  } */
-  
-  /* #artist-photo {
-    display: inline;
-    width: 100%;
-    float: left;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  #profile-text {
-    display: inline;
-    width: 100%;
-    float: left;
-    margin: auto;
-    letter-spacing: 1.5px;
-    line-height: 1.5rem;
-  } */
-}
-
 @media screen and (max-width: 920px) {
   .logo {
   font-family: 'Yuji Syuku', serif;
@@ -573,5 +545,4 @@ button {
   padding-left: 0.5rem;
   /* max-width: 50%; */
   }
-  
 }
