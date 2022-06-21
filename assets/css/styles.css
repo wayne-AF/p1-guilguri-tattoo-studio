@@ -16,6 +16,19 @@ body {
     max-width: 1800px;
 }
 
+hr {
+  border-top: 1px solid #252525;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
 a {
     color: #252525;
     text-decoration: none;
@@ -25,13 +38,10 @@ a {
   border-radius: 5px;
 }
 
-hr {
-  border-top: 1px solid #252525;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3em;
-  margin-bottom: 3em;
+.hover-effect:hover {
+  background-color: #252525;
+  color: ivory;
+  border-radius: 5px;
 }
 
 /* NAVIGATION BAR */
@@ -51,6 +61,7 @@ section {
   position: relative;
   z-index: 20;
 }
+
 .logo {
   font-family: 'Yuji Syuku', serif;
   font-size: 260%;
@@ -81,12 +92,10 @@ nav {
   padding: 0.25em;
 }
 
-label {
+nav>label {
   margin: 0 0.5em 0 0;
   font-size: 250%;
-/*   line-height: 70px; */
   display: none;
-/*   width: 26px; */
   float: right;
 }
 
@@ -105,35 +114,40 @@ nav {
   line-height: 6rem;
 }
 
-.hover-effect:hover {
-    background-color: #252525;
-    color: ivory;
-    border-radius: 5px;
-    /* padding: 0.25em; */
-}
-
 .active {
     border-bottom: 1px solid #252525;
 }
 
-/* HERO IMAGE SECTION */
+/* FOOTER SECTION */
+
+#footer {
+  text-align: center;
+  padding: 7%;
+}
+
+.social-icon {
+  font-size: 150%;
+  margin: 4%;
+  padding: 2%;
+}
+
+#footer p {
+  font-size: 10px;
+}
+
+/* HOME PAGE */
 
 #hero-section {
     display: inline-block;
     max-width: 70%;
     text-align: center;
-    /* height: 400px; */
     margin-left: 15%;
     margin-right: 15%;
 }
 
 #hero-image {
-    /* display: inline-block; */
     max-width: 80%;
     height: auto;
-    /* background: url('../images/index-hero-image.png') no-repeat center center;
-    background-size: contain;
-    background-position: 50% 50%; */
 }
 
 /* animation effect code retrieved from https://blog.hubspot.com/website/css-fade-in */
@@ -174,20 +188,19 @@ nav {
     100% {opacity:1;}
   }
 
-  #welcome {
-    /* display: inline-block; */
-    text-align: center;
-    letter-spacing: 20px;
-    font-family: 'Yuji Syuku', serif;
-    font-size: clamp(1.5rem, 4vw, 4rem);
-    padding: 0.5em;
+#welcome {
+  text-align: center;
+  letter-spacing: 20px;
+  font-family: 'Yuji Syuku', serif;
+  font-size: clamp(1.5rem, 4vw, 4rem);
+  padding: 0.5em;
     
-    animation: fadeIn linear 4s;
-    -webkit-animation: fadeIn linear 4s;
-    -moz-animation: fadeIn linear 4s;
-    -o-animation: fadeIn linear 4s;
-    -ms-animation: fadeIn linear 4s;
-  }
+  animation: fadeIn linear 4s;
+  -webkit-animation: fadeIn linear 4s;
+  -moz-animation: fadeIn linear 4s;
+  -o-animation: fadeIn linear 4s;
+  -ms-animation: fadeIn linear 4s;
+}
   
   @keyframes fadeIn {
     0% {opacity:0;}
@@ -214,23 +227,6 @@ nav {
     100% {opacity:1;}
   }
 
-  /* FOOTER SECTION */
-
-  #footer {
-    text-align: center;
-    padding: 7%;
-}
-
-.social-icon {
-    font-size: 150%;
-    margin: 4%;
-    padding: 2%;
-}
-
-#footer p {
-    font-size: 10px;
-}
-    
 /* ABOUT PAGE*/
 
 #about-page {
@@ -263,29 +259,6 @@ nav {
 #artist-photo {
   margin: auto 1em auto;
 }
-/* #artist-section {
-  display: flex;
-  /* justify-content: ; */
-  /* max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1em;
-  margin-bottom: 3em;
-} */
-
-/* #artist-photo {
-  display: inline-block;
-  max-width: 100%;
-  height: auto;
-  margin-left: 1em;
-} */
-
-/* #profile-text {
-  display: inline-block;
-  margin: auto 2em auto 3em;
-  letter-spacing: 1.5px;
-  line-height: 1.5rem;
-} */
 
 #studio-section {
   max-width: 1400px;
@@ -295,7 +268,7 @@ nav {
 
 #studio-text {
   text-align: center;
-  width: 75%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
@@ -306,6 +279,7 @@ nav {
 
 #studio-grid {
   text-align: center;
+  margin-top: 2em;
 }
 
 .studio-photo {
@@ -314,27 +288,6 @@ nav {
   width: 32rem;
   max-width: 100%;
 }
-
-/* #artist-section {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-/* #artist-photo {
-  display: inline-block;
-  margin-left: 1.5em;
-} */
-
-
-
-/* #profile-text {
-  display: inline-block;
-  margin-left: 3%;
-  letter-spacing: 1.5px;
-  line-height: 1.5rem;
-  
-} */
 
 /* PORTFOLIO PAGE */
 
@@ -364,7 +317,7 @@ nav {
 
 #available-design-text {
   text-align: center;
-  width: 60%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
@@ -378,7 +331,7 @@ nav {
   padding: 0.5em;
   border: 1px solid #252525;
   display: inline-block;
-  
+  margin-top: 1em;
 }
 
 .tattoo-card p {
@@ -407,8 +360,9 @@ nav {
   padding: 1em;
 }
 
-#contact-form p, label {
+#contact-form p {
   font-weight: 500;
+  margin-bottom: 1.5em;
 }
 
 .text-area {
@@ -419,45 +373,27 @@ nav {
   font-size: 1rem;
   line-height: 1.5rem;
   padding: 0.25em;
-  /* box-sizing: border-box; */
-  max-width: 80%;
+  max-width: 95%;
+}
+
+.form-section {
+  margin: 1em;
 }
 
 button {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding: 0.25em;
   background-color: linen;
   border: solid 1px #252525;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1500px) {
-  
-  
-}
-
-/* @media screen and (max-width: 1200px) {
-  .studio-photo {
-    margin: 0.5em;
-    max-width: 25rem;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .studio-photo {
-    max-width: 20rem;
-  }
-  
-}
-
-@media screen and (max-width: 695px) {
-  .studio-photo {
-    max-width: 30rem;
-  }
-  
-} */
 @media screen and (max-width: 1150px) {
   
   .logo {
@@ -476,27 +412,28 @@ button {
 
 @media screen and (max-width: 1050px) {
   /* responsive hamburger menu code retrieved from https://www.youtube.com/watch?v=xMTs8tAapnQ */
-  label{
+  nav>label{
     display: block;
     cursor: pointer;
     line-height: 5.5rem;
   }
+
   .menu {
     text-align: right;
     width: 100%;
     display: none;
   }
+
   .menu a {
     display: block;
     margin-right: 1em;
     line-height: 3.5rem;
-    /* background-color: rgba(250, 240, 230, 0.8); */
     color: linen;
     background-color: #252525;
-    /* border-radius: 5px; */
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
+
   #toggle:checked + .menu {
     display: block;
     border-radius: 5px;
@@ -528,12 +465,12 @@ button {
   .logo {
   font-family: 'Yuji Syuku', serif;
   font-size: 200%;
-  /* line-height: 3rem; */
-  /* letter-spacing: 5px; */
   padding-left: 0.5rem;
-  /* max-width: 50%; */
   }
-  
+
+  #available-design-text, #studio-text {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 722px) {
@@ -541,8 +478,6 @@ button {
   font-family: 'Yuji Syuku', serif;
   font-size: 200%;
   line-height: 3rem;
-  /* letter-spacing: 5px; */
   padding-left: 0.5rem;
-  /* max-width: 50%; */
   }
 }

@@ -16,7 +16,7 @@
 </head>
 <body id="contact-page">
     <header>
-        <h1 class="logo hover-effect">guilguri tattoo studio</h1>
+        <h1 class="logo">guilguri tattoo studio</h1>
 
         <nav>
             <label for="toggle">&#9776;</label>
@@ -34,19 +34,19 @@
         <div id="contact-form" class="round-corners">
       
             <h2 class="title">contact me.</h2>
-            <br>
+            
             <p>If you're interested in a specific design from my portfolio section, please specify which one, where on your body you're thinking of getting it, how big, etc. Alternatively, if you have an idea for a custom design, tell me what you're thinking of and I'll get back to you as soon as possible!</p>
-          <br>
-          <form action="">
-            <label for="name"></label>
-            <input class="text-area round-corners" type="text" placeholder="Your name" required>
+          
+          <form action="https://formdump.codeinstitute.net" method="POST">
+            <div class="form-section"><label for="name">Your name:</label>
+              <input class="text-area round-corners" type="text" name="name" placeholder="Your name" required></div>
             
-            <label for="email"></label>
-            <input class="text-area round-corners" type="email" id="email" name="email" placeholder="Your email" required>
-            <br>
+            <div class="form-section"><label for="email">Your email:</label>
+              <input class="text-area round-corners" type="email" id="email" name="email" placeholder="Your email" required></div>
             
-            <textarea class="text-area round-corners" id="comment-box" name="comment-box" rows="8" cols="70" placeholder="Write your message here!" required></textarea>
-            <br>
+            <div class="form-section"><label for="comment-box">Your message:</label>
+              <textarea class="text-area round-corners" id="comment-box" name="comment-box" rows="8" cols="70" placeholder="Write your message here!" required></textarea></div>
+            
             <button class="hover-effect round-corners">Submit</button>
           </form>
           </div> 
