@@ -483,4 +483,10 @@ button {
   line-height: 3rem;
   padding-left: 0.5rem;
   }
+
+  #contact-form {
+    max-width: 90%;
+    line-height: 1.5rem;
+    margin-top: 0em;
+  }
 }
