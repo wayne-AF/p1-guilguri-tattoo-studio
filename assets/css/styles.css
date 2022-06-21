@@ -248,7 +248,7 @@ nav {
   margin-bottom: auto;
   letter-spacing: 1.5px;
   line-height: 1.5rem;
-  padding: 0.75em;
+  padding: 1.25em 1.25em 0;
 }
 
 .profile-photo {
@@ -270,10 +270,9 @@ nav {
   width: 65%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2em;
-  margin-bottom: 1em;
   line-height: 1.5rem;
   letter-spacing: 1.5px;
+  padding: 0 1.25em;
 }
 
 #studio-grid {
@@ -488,5 +487,17 @@ button {
     max-width: 90%;
     line-height: 1.5rem;
     margin-top: -1em;
+  }
+}
+
+@media screen and (max-width: 654px) {
+  #profile-text {
+    text-align: center;
+    margin: auto;
+    width: 85%;
+  }
+  
+  #studio-text {
+    width: 85%;
   }
 }
