@@ -303,6 +303,11 @@ nav {
   padding-inline: 2em;
 }
 
+.portfolio-section h2 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
 .tattoo-grid {
   display: grid;
   gap: 1em;
