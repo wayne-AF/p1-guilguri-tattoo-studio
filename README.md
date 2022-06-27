@@ -6,7 +6,11 @@ This website has been created for Guilguri Tattoo Studio, a small tattooing busi
 Guilherme had a number of specific ideas and requirements for the website, some of which have been included in the final submitted build, while others have not yet been implemented due in part to my own current limitations as regards the skills and technologies available to me within the context and scope of the project. In line with the advice to treat this website as a real-world project as opposed to a project created solely to be assessed and graded, I have tried to work with and incorporate as many of Guilherme's requests while also fulfilling the project requirements. 
 
 ## Table of Contents
-- [User Experience] (https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#user-experience)
+1. [User Experience](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#user-experience)
+2. [Features](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#features)
+3. [Resources](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#resources)
+4. [Testing](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#testing)
+5. [Deployment](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#deployment)
 
 ## User Experience
 ### User Stories
@@ -156,7 +160,7 @@ All the text fields are required and any entered text will be in the same font (
 ### Validation
 - HTML validation 
 	+ index.html validation
-![index.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/index.html-validation.png?raw=true =438x)
+![index.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/index.html-validation.png?raw=true)
 	+ about.html validation
 ![about.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/about.html-validation.png?raw=true =438x)
 	+ portfolio.html validation
