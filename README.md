@@ -166,6 +166,7 @@ All the text fields are required and any entered text will be in the same font (
 - CSS validation
 
 ![CSS validation 1/2](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/css-validation.png?raw=true)
+
 ![CSS validation 2/2](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/css-validation-2.png?raw=true)
 
 The warnings given are for the imported Google fonts and for the extensions used for the animation effect on the Home page. 
