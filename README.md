@@ -155,7 +155,7 @@ All the text fields are required and any entered text will be in the same font (
 ### Validation
 - HTML validation 
 	+ index.html validation
-	![index.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/index.html-validation.png?raw=true =438x)
+![index.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/index.html-validation.png?raw=true =438x)
 	+ about.html validation
 ![about.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/about.html-validation.png?raw=true =438x)
 	+ portfolio.html validation
@@ -164,8 +164,10 @@ All the text fields are required and any entered text will be in the same font (
 ![contact.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/contact.html-validation.png?raw=true =438x)
 
 - CSS validation
+
 ![CSS validation 1/2](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/css-validation.png?raw=true)
 ![CSS validation 2/2](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/css-validation-2.png?raw=true)
+
 The warnings given are for the imported Google fonts and for the extensions used for the animation effect on the Home page. 
 
 ### Functionality
