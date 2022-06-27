@@ -6,6 +6,7 @@ This website has been created for Guilguri Tattoo Studio, a small tattooing busi
 Guilherme had a number of specific ideas and requirements for the website, some of which have been included in the final submitted build, while others have not yet been implemented due in part to my own current limitations as regards the skills and technologies available to me within the context and scope of the project. In line with the advice to treat this website as a real-world project as opposed to a project created solely to be assessed and graded, I have tried to work with and incorporate as many of Guilherme's requests while also fulfilling the project requirements. 
 
 ## Table of Contents
+- [User Experience] (https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#user-experience)
 
 ## User Experience
 ### User Stories
