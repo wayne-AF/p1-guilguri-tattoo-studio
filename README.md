@@ -162,7 +162,7 @@ All the text fields are required and any entered text will be in the same font (
 	+ index.html validation
 ![index.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/index.html-validation.png?raw=true)
 	+ about.html validation
-![about.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/about.html-validation.png?raw=true=438x85)
+![about.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/about.html-validation.png?raw=true =438x85)
 	+ portfolio.html validation
 ![portfolio.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/portfolio.html-validation.png?raw=true =438x)
 	+ contact.html validation
