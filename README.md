@@ -7,9 +7,26 @@ Guilherme had a number of specific ideas and requirements for the website, some 
 
 ## Table of Contents
 1. [User Experience](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#user-experience)
+	+ [User Stories](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#user-stories) 
+	+ [Design](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#design) 
+	+ [Wireframes](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#wireframes)
 2. [Features](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#features)
+	+ [Header](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#header)
+	+ [Footer](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#footer) 
+	+ [Home page](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#home-page)
+	+ [About page](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#about-page)
+	+ [Portfolio page](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#portfolio-page)
+	+ [Contact page](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#contact-page)
+	+ [Future features](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#future-features)
 3. [Resources](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#resources)
 4. [Testing](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#testing)
+	+ [Validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#validation)
+	+ [Functionality](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#functionality) 
+	+ [Performance](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#performance)
+	+ [Browser compatibility](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#browser-compatibility)
+	+ [OS compatibility](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#os-compatibility)
+	+ [Accessibility](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#accessibility)
+	+ [Testing user stories](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#testing-user-stories)
 5. [Deployment](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/README.md#deployment)
 
 ## User Experience
@@ -109,7 +126,7 @@ The header consists of the website name on the left and navigation links on the 
 ### Footer
 The footer section has three links. The studio does not yet have a Facebook page so the Facebook link opens in a new window to the Facebook sign-in page. The Instagram link opens in a new window to the studio's Instagram page. The third link opens in the same window and sends the user to the Contact page. I did not think it necessary to have this link open in a new window because the user is staying on the Guilguri site and can use the navigation bar if they wish to return to where they were. The icons also have a hover-effect similar to the navigation links in the header. 
 
-### Welcome page
+### Home page
 This is the landing page and the first things users will see when visiting the site. I wanted to use a dedicated welcome page with the actual word "welcome" because part of the website's point is to convey a sense of welcoming and hospitality to invite in the user. The "welcome" h2 is a link which takes the user to the About page. I applied a fade-in animation to the image and the h2 to give the user the impression of receiving a gentle welcome. 
 
 ### About page
