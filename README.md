@@ -82,7 +82,7 @@ Much of Guilherme's artwork and tattoo designs have a focus on circles and round
 #### Favicon
 Guilherme has not yet created a logo for the studio. I created a placeholder favicon using a photo of the circular lamp from the studio wall.
 
-#### Wireframes
+### Wireframes
 Home page wireframes:
 
 ![Homepage wireframes](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/homepage%20wireframes.png?raw=true)
@@ -162,11 +162,11 @@ All the text fields are required and any entered text will be in the same font (
 	+ index.html validation
 ![index.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/index.html-validation.png?raw=true)
 	+ about.html validation
-![about.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/about.html-validation.png?raw=true =438x85)
+![about.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/about.html-validation.png?raw=true)
 	+ portfolio.html validation
-![portfolio.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/portfolio.html-validation.png?raw=true =438x)
+![portfolio.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/portfolio.html-validation.png?raw=true)
 	+ contact.html validation
-![contact.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/contact.html-validation.png?raw=true =438x)
+![contact.html validation](https://github.com/wayne-AF/p1-guilguri-tattoo-studio/blob/main/documentation/contact.html-validation.png?raw=true)
 
 - CSS validation
 
