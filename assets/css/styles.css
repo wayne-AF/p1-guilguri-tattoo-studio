@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 600; 
     color: #252525;
     background-color: linen;
@@ -63,7 +63,7 @@ section {
 }
 
 .logo {
-  font-family: 'Yuji Syuku', serif;
+  font-family: "Yuji Syuku", serif;
   font-size: 260%;
   line-height: 5rem;
   letter-spacing: 5px;
@@ -191,7 +191,7 @@ nav {
 #welcome {
   text-align: center;
   letter-spacing: 20px;
-  font-family: 'Yuji Syuku', serif;
+  font-family: "Yuji Syuku", serif;
   font-size: clamp(2rem, 4vw, 4rem);
     
   animation: fadeIn linear 4s;
@@ -398,7 +398,6 @@ button {
 @media screen and (max-width: 1150px) {
   
   .logo {
-    font-family: 'Yuji Syuku', serif;
     letter-spacing: 3px;
     padding-left: 0.5rem;
   }
@@ -464,7 +463,6 @@ button {
 
 @media screen and (max-width: 920px) {
   .logo {
-  font-family: 'Yuji Syuku', serif;
   font-size: 200%;
   padding-left: 0.5rem;
   }
@@ -480,7 +478,6 @@ button {
 
 @media screen and (max-width: 722px) {
   .logo {
-  font-family: 'Yuji Syuku', serif;
   font-size: 200%;
   line-height: 3rem;
   padding-left: 0.5rem;
