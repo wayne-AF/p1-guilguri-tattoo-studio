@@ -245,11 +245,34 @@ I used WAVE Web Accessibility Evaluation Tool to assess the website's accessibil
 	__Test result: SUCCESS__
 	
 ## Deployment
+To clone the website's repository to your local computer in order to edit code, add or remove files, and push larger commits, the following steps should be taken:
+1. Log into GitHub.
+2. Use the search facility or the _Recent Repositories_ list on the left of the screen to locate and select wayne-AF/p1-guilguri-tattoo-studio.
+3. From the tabs below the menu list and above the file list, click _Code_.
+4. There are three methods of creating a clone:
+	+ Clone the repository using HTTPS
+	+ Clone the repository using an SSH key
+	+ Clone the repository using GitHub CLI.
+Choose the method and click the button to copy the link. 
+5. Open the terminal.
+6. Change the current working directory to the desired location for the cloned directory. 
+7. Type __git clone__, paste the copied URL, and press _enter_ to create the local clone. 
+
+To edit the website's code and push it to the repository, the following steps should be taken:
+1. Log into GitHub.
+2. Use the search facility or the _Recent Repositories_ list on the left of the screen, to locate and select wayne-AF/p1-guilguri-tattoo-studio. 
+3. From the tabs below the menu list and above the file list, click _Gitpod_.
+4. Sign into Gitpod if required. 
+5.  Make any desired changes to the code. 
+6. In the command line of the terminal, type __git add .__ and hit _enter_.
+7. On the next line, type __git commit -m "_enter your commit comment here_"__ and hit _enter_.
+8. On the next line, type __git push__ and hit _enter_.
+9. Your changes have been pushed to the repository and saved to the project.
+
 To deploy the website from its GitHub repository, the following steps should be taken: 
 1. Log into GitHub.
-2. From the _Recent Repositories_ list on the left of the screen, select wayne-AF/p1-guilguri-tattoo-studio. If this repository is not visible, use the search facility to locate it. 
+2. Use the search facility or the _Recent Repositories_ list on the left of the screen, to locate and select wayne-AF/p1-guilguri-tattoo-studio. 
 3. From the menu list below the repository name, select _Settings_.
 4. Select _Pages_ from the menu on the left. 
 5. Under _Source_, click the drop-down menu labelled _None_ and select _Master Branch_.
 6. The page will be refreshed and the website will be deployed with a link provided in the _GitHub Pages_ section. 
-
