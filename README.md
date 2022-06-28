@@ -249,11 +249,7 @@ To clone the website's repository to your local computer in order to edit code, 
 1. Log into GitHub.
 2. Use the search facility or the _Recent Repositories_ list on the left of the screen to locate and select wayne-AF/p1-guilguri-tattoo-studio.
 3. From the tabs below the menu list and above the file list, click _Code_.
-4. There are three methods of creating a clone:
-	+ Clone the repository using HTTPS
-	+ Clone the repository using an SSH key
-	+ Clone the repository using GitHub CLI.
-Choose the method and click the button to copy the link. 
+4. There are three methods of cloning the repository: using HTTPS, using an SSH key, and using GitHub CLI. Choose the desired method and click the button to copy the link.
 5. Open the terminal.
 6. Change the current working directory to the desired location for the cloned directory. 
 7. Type __git clone__, paste the copied URL, and press _enter_ to create the local clone. 
