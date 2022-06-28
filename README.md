@@ -159,7 +159,7 @@ All the text fields are required and any entered text will be in the same font (
 - A page where Guilherme can display his non-tattoo artwork and where users may purchase pieces and request custom artwork
 
 ## Resources
-- %md <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsive</a> - Used to test responsiveness across different-sized viewports
+- <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsive</a> - Used to test responsiveness across different-sized viewports
 - <a href="https://www.balsamiq.com/" target="_blank">Balsamiq Cloud</a> - Used for wireframe creation
 - <a href="https://www.youtube.com/watch?v=xMTs8tAapnQ" target="_blank">Caler Edwards Youtube channel</a> - Used for responsive drop-down code in the header
 - <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> - Used to import social icons
