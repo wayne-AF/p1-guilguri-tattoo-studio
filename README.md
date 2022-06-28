@@ -159,19 +159,19 @@ All the text fields are required and any entered text will be in the same font (
 - A page where Guilherme can display his non-tattoo artwork and where users may purchase pieces and request custom artwork
 
 ## Resources
-- [Am I Responsive](https://ui.dev/amiresponsive) - Used to test responsiveness across different-sized viewports
-- [Balsamiq](balsamiq.cloud) - Used for wireframe creation
-- [Font Awesome](https://fontawesome.com/) - Used to import social icons
-- [FreeFormatter](https://www.freeformatter.com/) - Used to format HTML
-- [Google fonts](https://fonts.google.com/) - Used to choose and import fonts
-- [Hubspot](https://blog.hubspot.com/website/css-fade-in) - Used for fade-in animation code on the Home page
-- [LunaPic](https://www6.lunapic.com/editor/?action=alpha-transparency) - Used to edit image opacity for background images
-- [Resize Image](https://resizeimage.net/) - Used for image size optimisation
-- [StackEdit](https://stackedit.io/) - Used for markdown editing
-- [W3C](https://validator.w3.org/) - Used for code validation 
-- [W3Schools](https://www.w3schools.com/colors/colors_names.asp) - Used to choose background colour
-- [WAVE](https://wave.webaim.org/) - Used to assess the website's accessibility. 
-- [Youtube](https://www.youtube.com/watch?v=xMTs8tAapnQ) - Used for responsive drop-down menu code in the header
+- [Am I Responsive](https://ui.dev/amiresponsive{:target="_blank"}) - Used to test responsiveness across different-sized viewports
+- [Balsamiq](balsamiq.cloud{:target="_blank"}) - Used for wireframe creation
+- [Font Awesome](https://fontawesome.com/{:target="_blank"}) - Used to import social icons
+- [FreeFormatter](https://www.freeformatter.com/{:target="_blank"}) - Used to format HTML
+- [Google fonts](https://fonts.google.com/{:target="_blank"}) - Used to choose and import fonts
+- [Hubspot](https://blog.hubspot.com/website/css-fade-in{:target="_blank"}) - Used for fade-in animation code on the Home page
+- [LunaPic](https://www6.lunapic.com/editor/?action=alpha-transparency{:target="_blank"}) - Used to edit image opacity for background images
+- [Resize Image](https://resizeimage.net/{:target="_blank"}) - Used for image size optimisation
+- [StackEdit](https://stackedit.io/{:target="_blank"}) - Used for markdown editing
+- [W3C](https://validator.w3.org/{:target="_blank"}) - Used for code validation 
+- [W3Schools](https://www.w3schools.com/colors/colors_names.asp{:target="_blank"}) - Used to choose background colour
+- [WAVE](https://wave.webaim.org/{:target="_blank"}) - Used to assess the website's accessibility. 
+- [Youtube](https://www.youtube.com/watch?v=xMTs8tAapnQ{:target="_blank"}) - Used for responsive drop-down menu code in the header
 
 ## Testing
 ### Validation
