@@ -159,20 +159,19 @@ All the text fields are required and any entered text will be in the same font (
 - A page where Guilherme can display his non-tattoo artwork and where users may purchase pieces and request custom artwork
 
 ## Resources
-- <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsive</a>
-- [Am I Responsive](https://ui.dev/amiresponsive) - Used to test responsiveness across different-sized viewports
-- [Balsamiq](https://www.balsamiq.com/{:target="_blank"}) - Used for wireframe creation
-- [Font Awesome](https://fontawesome.com/{:target="_blank"}) - Used to import social icons
-- [FreeFormatter](https://www.freeformatter.com/{:target="_blank"}) - Used to format HTML
-- [Google fonts](https://fonts.google.com/{:target="_blank"}) - Used to choose and import fonts
-- [Hubspot](https://blog.hubspot.com/website/css-fade-in{:target="_blank"}) - Used for fade-in animation code on the Home page
-- [LunaPic](https://www6.lunapic.com/editor/?action=alpha-transparency{:target="_blank"}) - Used to edit image opacity for background images
-- [Resize Image](https://resizeimage.net/{:target="_blank"}) - Used for image size optimisation
-- [StackEdit](https://stackedit.io/{:target="_blank"}) - Used for markdown editing
-- [W3C](https://validator.w3.org/{:target="_blank"}) - Used for code validation 
-- [W3Schools](https://www.w3schools.com/colors/colors_names.asp{:target="_blank"}) - Used to choose background colour
-- [WAVE](https://wave.webaim.org/{:target="_blank"}) - Used to assess the website's accessibility. 
-- [Youtube](https://www.youtube.com/watch?v=xMTs8tAapnQ{:target="_blank"}) - Used for responsive drop-down menu code in the header
+- <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsive</a> - Used to test responsiveness across different-sized viewports
+- <a href="https://www.balsamiq.com/" target="_blank">Balsamiq Cloud</a> - Used for wireframe creation
+- <a href="https://www.youtube.com/watch?v=xMTs8tAapnQ" target="_blank">Caler Edwards Youtube channel</a> - Used for responsive drop-down code in the header
+- <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> - Used to import social icons
+- <a href="https://www.freeformatter.com/" target="_blank">FreeFormatter</a> - Used to format HTML
+- <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> - Used to choose and import fonts
+- <a href="https://blog.hubspot.com/website/css-fade-in" target="_blank">Hubspot</a> - Used for fade-in animation code on the Home page
+- <a href="https://www6.lunapic.com/editor/?action=alpha-transparency" target="_blank">LunaPic</a> - Used to edit image opacity for background images
+- <a href="https://resizeimage.net/" target="_blank">Resize Image</a> - Used for image size optimisation 
+- <a href="https://stackedit.io/" target="_blank">StackEdit</a> - Used for markdown editing
+- <a href="https://validator.w3.org/" target="_blank">W3C</a> - Used for code validation
+- <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">W3Schools</a> - Used to choose background colour
+- <a href="https://wave.webaim.org/" target="_blank">WAVE</a> - Used to assess website's accessibility
 
 ## Testing
 ### Validation
