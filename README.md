@@ -159,8 +159,8 @@ All the text fields are required and any entered text will be in the same font (
 - A page where Guilherme can display his non-tattoo artwork and where users may purchase pieces and request custom artwork
 
 ## Resources
-- [Am I Responsive](https://ui.dev/amiresponsive{:target="_blank"}) - Used to test responsiveness across different-sized viewports
-- [Balsamiq](balsamiq.cloud{:target="_blank"}) - Used for wireframe creation
+- [Am I Responsive](https://ui.dev/amiresponsive) - Used to test responsiveness across different-sized viewports
+- [Balsamiq](https://www.balsamiq.com/{:target="_blank"}) - Used for wireframe creation
 - [Font Awesome](https://fontawesome.com/{:target="_blank"}) - Used to import social icons
 - [FreeFormatter](https://www.freeformatter.com/{:target="_blank"}) - Used to format HTML
 - [Google fonts](https://fonts.google.com/{:target="_blank"}) - Used to choose and import fonts
